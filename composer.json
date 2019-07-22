@@ -1,0 +1,29 @@
+{
+  "name": "voodoo/event",
+  "description": "Voodoo events",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Max Schröter",
+      "email": "reabmax@googlemail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Voodoo\\Event\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Voodoo\\Event\\Tests\\": "tests"
+    }
+  },
+  "require": {
+    "psr/container": "^1.0",
+    "phly/phly-event-dispatcher": "^1.0"
+  },
+  "require-dev": {
+    "codeception/codeception": "^3.0"
+  }
+}
